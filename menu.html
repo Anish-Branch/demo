@@ -26,6 +26,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KT5Z6PJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<script>// close
+branch.closeJourney(function(err, data) {
+console.log(err, data);
+});
+
+// reopen
+branch.track("pageview");
+</script>
     <nav>
       <a href="#first"><i class="fa fa-user"></i></a>
       <a href="#second"><i class="fa fa-briefcase"></i></a>
@@ -35,47 +44,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
       <section id="first">
         <h1>First</h1>
-        <script>// close
-branch.closeJourney(function(err, data) {
-  console.log(err, data);
-});
-
-// reopen
-branch.track("pageview");
-</script>
       </section>
       <section id="second">
         <h1>Second</h1>
-        <script>// close
-branch.closeJourney(function(err, data) {
-  console.log(err, data);
-});
-
-// reopen
-branch.track("pageview");
-</script>
       </section>
       <section id="third">
         <h1>Third</h1>
-        <script>// close
-branch.closeJourney(function(err, data) {
-  console.log(err, data);
-});
-
-// reopen
-branch.track("pageview");
-</script>
       </section>
       <section id="fourth">
         <h1>Fourth</h1>
-        <script>// close
-branch.closeJourney(function(err, data) {
-  console.log(err, data);
-});
-
-// reopen
-branch.track("pageview");
-</script>
       </section>
       </div>
 
