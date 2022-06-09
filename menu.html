@@ -14,11 +14,11 @@
      branch.init('key_live_ml4v0vCuDl55jhUC5KoaOcllsAfFPaY9');
 
      // close
-     branch.closeJourney(function(err, data) {
+     window.branch.closeJourney(function(err, data) {
        console.log(err, data);
      });
      // reopen
-     branch.track("pageview");
+     window.branch.track("pageview");
 
    </script>
    <!-- Google Tag Manager -->
